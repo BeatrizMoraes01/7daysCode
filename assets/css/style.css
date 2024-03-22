@@ -1,0 +1,93 @@
+body{
+    width: auto;
+    font-family: "Inter", sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px 80px 18px 80px;
+    padding: 0px 32px 0px 32px;
+    background-color: #FFFFFF;
+}
+.cabecalho__nome{
+    font-size: 18px;
+    color: #3A404E;
+    font-weight: 500;
+    line-height: 24px;
+}
+.logo-nome{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.paginas{
+    display: flex;
+    gap: 40px;
+}
+.paginas__nome{
+    font-size: 16px;
+    color: #667085;
+    font-weight: 400;
+    line-height: 24px;
+}
+.botoes{
+    display: flex;
+    gap: 12px;
+}
+.botao_1{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #667085;
+}
+.botao_2{
+    width: 112px;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid #8E2424;
+    padding: 10px 18px 10px 18px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #8E2424;
+    box-shadow: 0px 1px 2px 0 #0453f10d;
+}
+.sobre{
+    height: 407px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.sobre__sobre{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #8E2424;
+}
+.sobre__titulo{
+    display: inline-block;
+    width: 652px;
+    height: 60px;
+    padding: 0px, 32px, 0px, 32px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -2%;
+    color: #101828;
+}
+.sobre__paragrafo{
+    display: inline-block;
+    width: 890px;
+    height: 60px;
+    padding: 12px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
+}
