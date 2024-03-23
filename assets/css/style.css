@@ -91,3 +91,39 @@ body{
     text-align: center;
     color: #667085;
 }
+.metricas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lista__metricas{
+    display: flex;
+    /*margin: top right bottom left*/
+    margin: 0 80px 96px 80px;
+    gap: 32px;
+    line-height: 24px;
+}
+.item__metricas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 280px;
+    height: 168px;
+}
+.item__titulo{
+    margin-bottom: 27px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #8E2424;
+}
+.item__subtitulo{
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #101828;
+}
+.item__paragrafo{
+    font-size: 16px;
+    font-weight: 400;
+    color: #667085;
+}
