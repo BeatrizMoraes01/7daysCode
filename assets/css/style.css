@@ -32,6 +32,11 @@ body{
     font-weight: 400;
     line-height: 24px;
 }
+.paginas__nome:hover{
+    color: #8E2424;
+    cursor: pointer;
+    box-shadow: #896565;
+}
 .botoes{
     display: flex;
     gap: 12px;
@@ -125,5 +130,71 @@ body{
 .item__paragrafo{
     font-size: 16px;
     font-weight: 400;
+    color: #667085;
+}
+.vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vagas__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+.container__open{
+    font-size: 14px;
+    background-color: rgba(142, 36, 36, 0.05);
+    color: #8E2424;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 16px;
+    padding: 1em;
+}
+.container__titulo{
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -2%;
+    color: #101828;
+}
+.container__subtitulo{
+    font-size: 20px;
+    font-weight: 400;
+    color: #667085;
+}
+.vagas__img{
+    margin: 4em 2em;
+}
+.dev__vagas{
+    margin-top: 3em;
+}
+.lista__categoria{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.titulo__categoria{
+    font-size: 20px;
+    font-weight: 500;
+    color: #101828;
+}
+.nome__vaga{
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 2em 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 768px;
+}
+.titulo__vaga{
+    font-size: 18px;
+    font-weight: 500;
+    color: #101828;
+}
+.descricao__vaga{
+    font-size: 16px;
+    font-weight: 500;
     color: #667085;
 }
